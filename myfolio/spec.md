@@ -37,3 +37,11 @@
 *   **Tech Stack/Format:** HTML/Tailwind CSS, React หรือ Web Builder Platform
 *   **Writing Style:** กระชับ เป็นจุด (Bullet points) 
 *   **Constraints (สิ่งที่ห้ามมี):** ห้ามมีแอนิเมชันที่โหลดช้าหรือรบกวนสายตา และห้ามเขียนเนื้อหาแบบเรียงความยาวติดกัน (Wall of text)
+
+## Implementation Brief for This Portfolio Project
+*   **Project Goal:** สร้างเว็บไซต์ Portfolio แบบ Single Page สำหรับนักเรียนชั้น ม.3 ที่ใช้ยื่นสัมภาษณ์เข้าชั้น ม.4 สายวิทย์-คณิต
+*   **Content Style:** ใช้ข้อความสั้น กระชับ และเป็น bullet point เพื่อให้กรรมการอ่านได้เร็วใน 1-2 นาที
+*   **Visual Style:** Modern, Clean, Minimal, โทนสีขาว-ฟ้า และรองรับมือถือและแท็บเล็ต
+*   **Required Sections:** Hero, About & Education, Skills, Awards & Projects, Activities, Contact
+*   **Recommended Content:** เน้นความตั้งใจเรียนรู้, ทักษะด้านวิทยาศาสตร์/คณิตศาสตร์, ความรับผิดชอบ, และความพร้อมสำหรับการศึกษาต่อ
+*   **Implementation Notes:** ใช้ HTML + CSS แบบ Responsive โดยไม่ใส่แอนิเมชันที่หนักหรือช้าเกินไป
