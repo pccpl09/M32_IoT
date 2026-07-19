@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio นักเรียนชั้น ม.3</title>
+  <style>
+    @page { size: A4; margin: 12mm; }
+    body {
+      margin: 0;
+      font-family: 'Noto Sans Thai', 'Arial Unicode MS', sans-serif;
+      background: #f4f6f8;
+      color: #243447;
+      line-height: 1.5;
+      font-size: 12pt;
+    }
+    .page {
+      width: 210mm;
+      height: 297mm;
+      margin: 12px auto;
+      padding: 16mm;
+      box-sizing: border-box;
+      background: white;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      page-break-after: always;
+    }
+    .page:last-child { page-break-after: auto; }
+    h1, h2, h3 { margin-top: 0; color: #0f4c81; }
+    h1 { font-size: 24pt; margin-bottom: 6px; }
+    h2 { font-size: 16pt; margin-bottom: 8px; }
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 10pt;
+      font-weight: 700;
+      margin-bottom: 10px;
+      background: #e8f0f8;
+      color: #0f4c81;
+    }
+    .cover {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      gap: 16px;
+    }
+    .cover-left { flex: 1; }
+    .cover-right {
+      width: 60mm;
+      height: 75mm;
+      border: 2px dashed #8aa6c1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #6b7280;
+      background: #f8fafc;
+      font-size: 11pt;
+      padding: 8px;
+    }
+    .field {
+      margin: 6px 0;
+      padding: 6px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .field strong { color: #0f4c81; }
+    .box {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 10px 12px;
+      background: #fcfdff;
+      margin-bottom: 10px;
+    }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    ul { padding-left: 20px; margin: 0; }
+    li { margin-bottom: 6px; }
+    .note {
+      background: #f8fafc;
+      border-left: 4px solid #0f4c81;
+      padding: 8px 10px;
+      margin-top: 10px;
+      font-size: 11pt;
+    }
+    .track-blue { color: #0f4c81; }
+    .track-orange { color: #b45309; }
+    .track-blue .badge { background: #e8f0f8; color: #0f4c81; }
+    .track-orange .badge { background: #fff7ed; color: #b45309; }
+    .track-orange h1, .track-orange h2, .track-orange strong { color: #b45309; }
+    .track-orange .box { background: #fffaf5; }
+    .track-orange .note { border-left-color: #b45309; background: #fff7ed; }
+  </style>
+</head>
+<body>
+  <section class="page track-blue">
+    <div class="cover">
+      <div class="cover-left">
+        <div class="badge">Portfolio สำหรับการศึกษาต่อชั้น ม.4</div>
+        <h1>PORTFOLIO</h1>
+        <h2>นักเรียนชั้นมัธยมศึกษาปีที่ 3</h2>
+        <div class="field"><strong>ชื่อ-นามสกุล:</strong> [กรอกชื่อ-นามสกุล]</div>
+        <div class="field"><strong>โรงเรียน:</strong> [กรอกชื่อโรงเรียน]</div>
+        <div class="field"><strong>สายการเรียนที่ต้องการเข้า:</strong> [วิทย์-คณิต / ศิลป์-ภาษา / ศิลป์-คำนวณ]</div>
+        <div class="field"><strong>คำคม:</strong> "การเรียนรู้คือการเติบโตอย่างต่อเนื่อง"</div>
+        <div class="note">กรอกข้อมูลจริงของนักเรียน และใส่ภาพ/เกียรติบัตรที่เกี่ยวข้องเพื่อให้กรรมการรับชมได้อย่างชัดเจน</div>
+      </div>
+      <div class="cover-right">วางรูปถ่ายนักเรียนที่นี่</div>
+    </div>
+  </section>
+
+  <section class="page track-blue">
+    <h2>1. ประวัติส่วนตัวและคติประจำใจ</h2>
+    <div class="grid">
+      <div class="box">
+        <div class="field"><strong>ชื่อ-นามสกุล:</strong> [กรอกชื่อ-นามสกุล]</div>
+        <div class="field"><strong>วันเดือนปีเกิด:</strong> [กรอกวัน/เดือน/ปี]</div>
+        <div class="field"><strong>เบอร์โทร:</strong> [กรอกเบอร์โทร]</div>
+        <div class="field"><strong>อีเมล:</strong> [กรอกอีเมล]</div>
+        <div class="field"><strong>ที่อยู่/จังหวัด:</strong> [กรอกข้อมูล]</div>
+      </div>
+      <div class="box">
+        <div class="field"><strong>คติประจำใจ:</strong></div>
+        <p>“การเรียนรู้ไม่ใช่เพียงเพื่อสอบแข่งขัน แต่คือการเติบโตให้พร้อมรับอนาคต”</p>
+      </div>
+    </div>
+    <div class="box">
+      <p><strong>คำอธิบายสั้น ๆ เกี่ยวกับตัวตน:</strong></p>
+      <p>เป็นนักเรียนที่มีความตั้งใจเรียนรู้และพร้อมพัฒนาตนเองอย่างต่อเนื่อง มีความสนใจในด้าน [กรอกความสนใจ] และมุ่งหวังที่จะใช้ความรู้และทักษะเพื่อสร้างคุณค่าให้กับโรงเรียนและชุมชน</p>
+    </div>
+  </section>
+
+  <section class="page track-blue">
+    <h2>2. ประวัติการศึกษา</h2>
+    <div class="box">
+      <ul>
+        <li>กำลังศึกษาอยู่ในระดับชั้นมัธยมศึกษาปีที่ 3 ที่ <strong>[ชื่อโรงเรียน]</strong></li>
+        <li>ผลการเรียนโดยรวม: <strong>[กรอกค่าเฉลี่ยหรือผลการเรียน]</strong></li>
+        <li>วิชาที่สนใจหรือมีความถนัด: <strong>[กรอกวิชา]</strong></li>
+        <li>ความตั้งใจในการศึกษาต่อ: <strong>[กรอกสายการเรียนที่ต้องการเข้าและเหตุผล]</strong></li>
+      </ul>
+    </div>
+    <div class="note">สำหรับสายวิทย์-คณิต: เน้นความสามารถในการคิดวิเคราะห์และแก้ปัญหาอย่างเป็นระบบ<br>สำหรับสายศิลป์-ภาษา: เน้นความสามารถในการสื่อสาร ความคิดสร้างสรรค์ และการแสดงออก</div>
+  </section>
+
+  <section class="page track-blue">
+    <h2>3. ทักษะและความสามารถพิเศษ</h2>
+    <div class="grid">
+      <div class="box">
+        <p><strong>ทักษะทางวิชาการ</strong></p>
+        <ul>
+          <li>[กรอกทักษะด้านวิชาเรียน]</li>
+          <li>[กรอกทักษะด้านการค้นคว้า/วิเคราะห์]</li>
+        </ul>
+      </div>
+      <div class="box">
+        <p><strong>ทักษะทางสังคม</strong></p>
+        <ul>
+          <li>[กรอกความรับผิดชอบ/ความร่วมมือ]</li>
+          <li>[กรอกความสามารถในการทำงานกับผู้อื่น]</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box">
+      <p><strong>ความสามารถพิเศษ</strong></p>
+      <ul>
+        <li>[กรอกความสามารถพิเศษ เช่น การนำเสนอ การเขียน การใช้เทคโนโลยี]</li>
+        <li>[กรอกสิ่งที่ทำให้ตนเองโดดเด่น]</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="page track-blue">
+    <h2>4. ผลงานและเกียรติบัตรที่โดดเด่น</h2>
+    <div class="box">
+      <ul>
+        <li><strong>เกียรติบัตร 1:</strong> [กรอกชื่อรางวัล/เกียรติบัตรและคำอธิบายสั้น ๆ]</li>
+        <li><strong>เกียรติบัตร 2:</strong> [กรอกชื่อรางวัล/เกียรติบัตรและคำอธิบายสั้น ๆ]</li>
+        <li><strong>ผลงาน 3:</strong> [กรอกชื่อผลงานและจุดเด่น]</li>
+        <li><strong>ผลงาน 4:</strong> [กรอกชื่อผลงานและผลลัพธ์ที่ได้รับ]</li>
+      </ul>
+    </div>
+    <div class="note">ควรวางภาพเกียรติบัตรหรือภาพผลงานด้านขวาของข้อความเพื่อให้ดูน่าสนใจและชัดเจนขึ้น</div>
+  </section>
+
+  <section class="page track-blue">
+    <h2>5. กิจกรรมเพื่อสังคมหรือกิจกรรมโรงเรียน</h2>
+    <div class="box">
+      <ul>
+        <li>กิจกรรมโรงเรียน: [กรอกชื่อกิจกรรมและบทบาทของตนเอง]</li>
+        <li>กิจกรรมเพื่อสังคม: [กรอกชื่อโครงการและผลที่เกิดขึ้น]</li>
+        <li>ความรับผิดชอบที่เคยรับ: [กรอกหน้าที่ที่ทำและสิ่งที่ได้เรียนรู้]</li>
+      </ul>
+    </div>
+    <div class="note">ควรเลือกกิจกรรมที่สะท้อนความรับผิดชอบ ความเป็นผู้นำ และความตั้งใจในการพัฒนาตนเอง</div>
+  </section>
+</body>
+</html>
